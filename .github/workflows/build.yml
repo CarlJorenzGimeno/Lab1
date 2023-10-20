@@ -21,7 +21,8 @@ jobs:
           repository: 'UPatrol'
       - name: Access cloned repository content
         run: |
-          cd UPatrol    
+          cd UPatrol
+          ls -la
       - uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
